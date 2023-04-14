@@ -1,3 +1,8 @@
+* {
+  margin: 0; 
+  padding: 0; 
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -59,6 +64,7 @@ p span, #footer a{
 }
 
 #wave {
+  display: flex;
   width: 100%;
   bottom: 0px;
   margin-bottom: 0;
